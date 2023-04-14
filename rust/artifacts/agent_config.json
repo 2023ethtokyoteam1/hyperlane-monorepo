@@ -1,0 +1,38 @@
+{
+  "chains": {
+    "lineagoerli": {
+      "name": "lineagoerli",
+      "domain": 59140,
+      "addresses": {
+        "mailbox": "0xC54342bdE34268e50aa40191f7fFC68600C09F48",
+        "interchainGasPaymaster": "0xfBe922ae6dEdAFf92A877FE9dD603A190f01d4E2",
+        "validatorAnnounce": "0xaB270149Fd88a285993C26adA1dd8B0A38EB3d8c"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "connection": {
+        "type": "http"
+      },
+      "index": {
+        "from": 476618
+      }
+    },
+    "mumbai": {
+      "name": "mumbai",
+      "domain": 80001,
+      "addresses": {
+        "mailbox": "0xCC737a94FecaeC165AbCf12dED095BB13F037685",
+        "interchainGasPaymaster": "0xbF4d35716fFd25a55ED9d91767C8B9BEBc6506E8",
+        "validatorAnnounce": "0x3Fc742696D5dc9846e04f7A1823D92cb51695f9a"
+      },
+      "protocol": "ethereum",
+      "finalityBlocks": 1,
+      "connection": {
+        "type": "http"
+      },
+      "index": {
+        "from": 29390033
+      }
+    }
+  }
+}
