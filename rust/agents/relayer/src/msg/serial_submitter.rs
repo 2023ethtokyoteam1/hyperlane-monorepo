@@ -271,7 +271,7 @@ impl SerialSubmitter {
         //  or txs being dropped from the mempool. To avoid consistently retrying
         //  only these messages, the number of retries could be considered.
 
-        let gas_limit = tx_cost_estimate.gas_limit;
+        let gas_limit = tx_cost_estimate.gas_limit * 2;
 
         if let Some(max_limit) = self.transaction_gas_limit {
             if gas_limit > max_limit {
